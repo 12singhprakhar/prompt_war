@@ -5,7 +5,12 @@
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-green.svg)](https://fastapi.tiangolo.com)
 [![Google Gemini](https://img.shields.io/badge/Google-Gemini%20AI-orange.svg)](https://ai.google.dev)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://stadiumflow-826022348771.us-central1.run.app)
+
+---
+
+## 🚀 Live Demo
+👉 **[Launch StadiumFlow AI - Live Cloud Run Deployment](https://stadiumflow-826022348771.us-central1.run.app)**
 
 ---
 
@@ -244,9 +249,3 @@ docker-compose up --build
 # Or deploy to Google Cloud Run
 gcloud run deploy stadiumflow --source .
 ```
-
----
-
-## 📄 License
-
-MIT License — Built for the hackathon with ❤️
