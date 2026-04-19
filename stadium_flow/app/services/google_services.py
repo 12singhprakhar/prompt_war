@@ -141,6 +141,23 @@ Current venue context will be provided with each message."""
         """
         msg = message.lower()
 
+        if any(w in msg for w in ["book", "order", "pre-book", "prebook"]) and any(w in msg for w in ["food", "drink", "snack", "stall"]):
+            return (
+                "✅ **Food order successfully pre-booked!**\n\n"
+                "I've placed your order at the **East Concourse Express Lane** to bypass the queues.\n"
+                "Your order number is **#SF-8492**.\n"
+                "Please pick it up in approximately 10 minutes. The payment will be charged to your linked account!"
+            )
+
+        if any(w in msg for w in ["route", "navigate", "go from", "path", "directions"]):
+            return (
+                "🗺️ I can help you navigate!\n\n"
+                "To get exact directions:\n"
+                "Use the **Live Venue Map** panel on the left and select your Origin and Destination.\n"
+                "You can also just click directly on any colored zone bubble on the map to plot a route instantly! "
+                "I'll ensure the path avoids critically congested areas."
+            )
+
         if any(w in msg for w in ["restroom", "bathroom", "toilet", "washroom"]):
             return (
                 "🚻 Restrooms are located at each concourse level. The nearest "

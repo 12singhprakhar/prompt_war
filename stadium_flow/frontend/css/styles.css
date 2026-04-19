@@ -1008,6 +1008,8 @@ body {
 .facility-marker {
     cursor: pointer;
     transition: transform var(--transition-fast);
+    transform-box: fill-box;
+    transform-origin: center;
 }
 
 .facility-marker:hover {

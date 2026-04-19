@@ -34,10 +34,10 @@ class ConciergeAgent(BaseAgent):
     # Quick actions available in the chat widget
     QUICK_ACTIONS = [
         {"id": "find-restroom", "label": "Find Restroom", "icon": "🚻", "prompt": "Where is the nearest restroom?"},
-        {"id": "find-food", "label": "Find Food", "icon": "🍔", "prompt": "What food options are available?"},
-        {"id": "find-exit", "label": "Find Exit", "icon": "🚪", "prompt": "How do I get to the nearest exit?"},
+        {"id": "book-food", "label": "Order Food", "icon": "📱", "prompt": "Can You pre-book food for me at a stall?"},
+        {"id": "route-map", "label": "Route Me", "icon": "🗺️", "prompt": "How do I route from one point to another?"},
         {"id": "wait-times", "label": "Wait Times", "icon": "⏱️", "prompt": "What are the current wait times?"},
-        {"id": "find-seat", "label": "Find My Seat", "icon": "🎫", "prompt": "Help me find my seat"},
+        {"id": "find-exit", "label": "Find Exit", "icon": "🚪", "prompt": "How do I get to the nearest exit?"},
         {"id": "accessibility", "label": "Accessibility", "icon": "♿", "prompt": "What accessible facilities are available?"},
     ]
 
